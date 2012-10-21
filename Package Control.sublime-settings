@@ -1,9 +1,11 @@
 {
-	"auto_upgrade_last_run": 1350836876,
-	"http_proxy": "http://10.10.78.22:3128",
-	"https_proxy": "https://10.10.78.22:3128",
+	"auto_upgrade_last_run": 1350851161,
 	"installed_packages":
 	[
-		"Git"
+		"Git",
+		"LiveReload",
+		"Markdown Preview",
+		"Package Control",
+		"SublimeEvernote"
 	]
 }
