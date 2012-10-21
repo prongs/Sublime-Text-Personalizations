@@ -1,0 +1,9 @@
+{
+	"auto_upgrade_last_run": 1350836876,
+	"http_proxy": "http://10.10.78.22:3128",
+	"https_proxy": "https://10.10.78.22:3128",
+	"installed_packages":
+	[
+		"Git"
+	]
+}

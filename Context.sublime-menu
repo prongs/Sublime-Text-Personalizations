@@ -1,0 +1,4 @@
+[
+    { "id": "file" },
+    { "command": "open_command_window_here", "caption": "Open Command Window Here…" }
+]
