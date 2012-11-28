@@ -1,11 +1,31 @@
 {
-	"auto_upgrade_last_run": 1350926328,
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"Alignment",
+		"Calculate",
+		"Case Conversion",
+		"Clipboard Manager",
+		"Codechef",
+		"CSV",
+		"Gist",
 		"Git",
+		"GL Shader Validator",
+		"jQuery",
 		"LiveReload",
 		"Markdown Preview",
+		"MSBuild",
+		"Number Manipulation",
 		"Package Control",
-		"SublimeEvernote"
+		"SFTP",
+		"ShaderLanguages",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeEvernote",
+		"SublimeLinter",
+		"SublimeREPL",
+		"SublimeTODO",
+		"Terminal",
+		"ZenCoding"
 	]
 }
