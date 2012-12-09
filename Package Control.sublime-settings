@@ -12,11 +12,14 @@
 		"Git",
 		"GL Shader Validator",
 		"jQuery",
+		"JsFormat",
 		"LiveReload",
 		"Markdown Preview",
 		"MSBuild",
+		"Nodejs",
 		"Number Manipulation",
 		"Package Control",
+		"Require Node.js Modules Helper",
 		"SFTP",
 		"ShaderLanguages",
 		"SideBarEnhancements",
@@ -25,7 +28,6 @@
 		"SublimeLinter",
 		"SublimeREPL",
 		"SublimeTODO",
-		"Terminal",
 		"ZenCoding"
 	]
 }
