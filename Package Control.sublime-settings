@@ -20,6 +20,7 @@
 		"Nodejs",
 		"Number Manipulation",
 		"Package Control",
+		"Python Auto-Complete",
 		"Require Node.js Modules Helper",
 		"SFTP",
 		"ShaderLanguages",
@@ -28,6 +29,7 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeREPL",
+		"SublimeRope",
 		"SublimeTODO",
 		"ZenCoding"
 	]
