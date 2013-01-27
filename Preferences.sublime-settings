@@ -3,9 +3,9 @@
 	"font_size": 11,
 	"ignored_packages":
 	[
-		"Vintage",
 		"GL Shader Validator",
-		"LiveReload"
+		"LiveReload",
+		"ShaderLanguages"
 	],
 	"trim_trailing_white_space_on_save": true
 }
