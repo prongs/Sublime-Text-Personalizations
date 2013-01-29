@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"get_or",
+				"get_org_from_ip"
+			],
+			[
+				"get_",
+				"get_org_from_ip"
+			],
+			[
 				"Sublime",
 				"SublimeAutoUpload"
 			],
@@ -506,14 +514,6 @@
 			[
 				"pu",
 				"push_back"
-			],
-			[
-				"numb",
-				"numbers"
-			],
-			[
-				"pop",
-				"pop_operation_index"
 			]
 		]
 	},
@@ -528,26 +528,34 @@
 			}
 		},
 		{
-			"file": "agni.sublime-workspace",
-			"settings":
-			{
-				"buffer_size": 54961,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/C/users/rajat/appdata/local/temp/sublime-sftp-browse-1359225728/agni/home/harsh/btp-server/website/wperf/views.py",
 			"settings":
 			{
-				"buffer_size": 15835,
+				"buffer_size": 16450,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Vintage/Default.sublime-keymap",
+			"file": "/E/Games/Crysis Repack - Ryzy/Crysis/Crysis/Bin32/Benchmark_CPU.bat",
 			"settings":
 			{
-				"buffer_size": 34362,
+				"buffer_size": 257,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Hisaab/agra.yaml",
+			"settings":
+			{
+				"buffer_size": 2889,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/users/rajat/appdata/local/temp/sublime-sftp-browse-1359279937/agni/home/harsh/btp-server/website/wperf/models.py",
+			"settings":
+			{
+				"buffer_size": 2585,
 				"line_ending": "Unix"
 			}
 		},
@@ -568,31 +576,28 @@
 			}
 		},
 		{
-			"contents": "<style>\n.odd:hover, .even:hover, .hover {\nbackground: #CCFFCC;\ncolor: #000000;\n}\ntable tr.even {\nbackground: #D5D5D5;\n}\ntable tr.odd  {\nbackground: #E5E5E5;\n}\ntable tr td div\n{\n	width: 30px;\n	height: 30px;\n	cursor: pointer;\n}\ntable tr td div.blocked\n{\n	background: url(\"/static/blocked.png\")\n}\ntable tr td div.allowed\n{\n	background: url(\"/static/allowed.png\")\n}\n</style>\n<script type=\"text/javascript\">\n	function toggleBlocked(hostId, div)\n	{\n		$.get('/wperf/hosts/toggleBlocked/' + hostId, function(data){\n			$(div).attr(\"class\", ($(div).attr('class') == 'allowed' ? 'blocked' : 'allowed'))\n		});\n	}\n</script>\n<h3>DNS Hosts</h3>\n<table width=100%>\n        {% for host in hosts %}\n        <tr class=\"host_row {% if forloop.counter|divisibleby:2 %}even{% else %}odd{% endif %}\">\n            <td width=40%>{{host.name}}</td>\n            <td width=20%>{{host.ips}}</td>\n            <td width=20%>{{host.org_name}}({{host.ip_range}})</td>\n            <td width=20%><div name=\"{% if host.blocked %}blocked{% else %}allowed{% endif %}\" class=\"{% if host.blocked %}blocked{% else %}allowed{% endif %}\" onclick=\"toggleBlocked({{host.pk}}, this);\"></div></td>\n        </tr>\n        {% endfor %}\n</table>\n\n",
 			"file": "/C/users/rajat/appdata/local/temp/sublime-sftp-browse-1359225747/agni/home/harsh/btp-server/website/wperf/templates/hosts_list_template.html",
-			"file_size": 1242,
-			"file_write_time": 130037097268652924,
 			"settings":
 			{
-				"buffer_size": 1196,
+				"buffer_size": 1200,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 639,
-				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 311.0,
 		"selected_items":
 		[
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
 			[
 				"ins",
 				"Package Control: Install Package"
@@ -616,10 +621,6 @@
 			[
 				":w",
 				":w - Save"
-			],
-			[
-				"disable",
-				"Package Control: Disable Package"
 			],
 			[
 				"enal",
@@ -946,10 +947,6 @@
 				"SublimeREPL: Python"
 			],
 			[
-				"disabl",
-				"SublimeLinter: Disable Linting"
-			],
-			[
 				"rep she",
 				"SublimeREPL: Shell"
 			],
@@ -987,6 +984,15 @@
 	},
 	"file_history":
 	[
+		"/E/Games/Crysis Repack - Ryzy/Crysis/Crysis/Bin32/Benchmark_CPU.bat",
+		"/E/Games/Crysis Repack - Ryzy/Crysis/Crysis/Bin32/Benchmark_GPU.bat",
+		"/C/Users/Rajat/Documents/GitHub/Hisaab/web/solver.py",
+		"/C/Users/Rajat/Documents/GitHub/Hisaab/web/trip.py",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Hisaab/solver.py",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Hisaab/agra.yaml",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Projects/agni.sublime-workspace",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Vintage/Default.sublime-keymap",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
 		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/agni",
 		"/C/users/rajat/appdata/local/temp/sublime-sftp-browse-1359225728/agni/home/harsh/btp-server/website/wperf/agni",
@@ -1005,7 +1011,6 @@
 		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SFTP/sftp/config.py",
 		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SFTP/sftp/ftps_transport.py",
 		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Projects/agni.sublime-project",
-		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Projects/agni.sublime-workspace",
 		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/AutoUpload/README.md",
 		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/AutoUpload/AutoUpload.sublime-settings",
 		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SFTP/Default.sublime-commands",
@@ -1036,7 +1041,6 @@
 		"/C/Users/Rajat/AppData/Local/Temp/Rar$DI01.203/_1_query.py",
 		"/C/Users/Rajat/Documents/GitHub/wordofday/.gitignore",
 		"/E/Games/COD4/Mods/ModWarfare/makeMod.bat",
-		"/E/Games/Crysis Repack - Ryzy/Crysis/Crysis/Bin32/Benchmark_CPU.bat",
 		"/H/DEViANCE/deviance.txt",
 		"/F/Games/Crysis Repack - Ryzy/crysis key.reg",
 		"/E/Games/Crysis Repack - Ryzy/Crysis/Crysis/Bin32/Crysis.exe",
@@ -1107,14 +1111,7 @@
 		"/C/Users/Rajat/Documents/GitHub/WindowsUtils/.gitignore",
 		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/palasi",
 		"/E/setups/Connectify Hotspot PRO v3.7.1.25486 Cracked-Raj.NewEra/Connectify Hotspot PRO v3.7.1.25486 Cracked-Raj.NewEra/Serials.txt",
-		"/E/setups/Connectify Hotspot PRO v3.7.1.25486 Cracked-Raj.NewEra/Connectify Hotspot PRO v3.7.1.25486 Cracked-Raj.NewEra/Install.txt",
-		"/C/Users/Rajat/AppData/Roaming/vlc/crashdump",
-		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Gist/gist.py",
-		"/C/Users/Rajat/Desktop/a.cpp",
-		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Default/comment.py",
-		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Default/delete_word.py",
-		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Codechef/ideone.py",
-		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/IdeoneLanguageList.sublime-settings"
+		"/E/setups/Connectify Hotspot PRO v3.7.1.25486 Cracked-Raj.NewEra/Connectify Hotspot PRO v3.7.1.25486 Cracked-Raj.NewEra/Install.txt"
 	],
 	"find":
 	{
@@ -1155,6 +1152,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sub_or",
+			"SubOrganization",
+			")\n",
+			"h.",
+			"200",
+			"932/4",
+			"702/3",
 			"tp",
 			"\"d\"",
 			"\"d\",",
@@ -1275,14 +1279,7 @@
 			"  ",
 			"open_command_window",
 			"android-support-v4",
-			"in",
-			"'",
-			"pause",
-			"/",
-			"codechef",
-			"save_sett",
-			"IdeoneLanguageList",
-			"languages"
+			"in"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1314,7 +1311,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1436,136 +1433,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "agni.sublime-workspace",
-					"settings":
-					{
-						"buffer_size": 54961,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"incomplete_sync": null,
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"remote_loading": false,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 9033.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "/C/users/rajat/appdata/local/temp/sublime-sftp-browse-1359225728/agni/home/harsh/btp-server/website/wperf/views.py",
 					"settings":
 					{
-						"buffer_size": 15835,
+						"buffer_size": 16450,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1168,
-								1168
+								14229,
+								14229
 							]
 						],
 						"settings":
@@ -1668,25 +1547,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1080.0,
+						"translation.y": 6432.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Vintage/Default.sublime-keymap",
+					"buffer": 2,
+					"file": "/E/Games/Crysis Repack - Ryzy/Crysis/Crysis/Bin32/Benchmark_CPU.bat",
 					"settings":
 					{
-						"buffer_size": 34362,
+						"buffer_size": 257,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10841,
-								10841
+								256,
+								256
 							]
 						],
 						"settings":
@@ -1782,17 +1661,255 @@
 							},
 							"sublimelinter_wrap_find": true,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"syntax": "Packages/Batch File/Batch File.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Hisaab/agra.yaml",
+					"settings":
+					{
+						"buffer_size": 2889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2304,
+								2304
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6315.0,
+						"translation.y": 1254.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"file": "/C/users/rajat/appdata/local/temp/sublime-sftp-browse-1359279937/agni/home/harsh/btp-server/website/wperf/models.py",
+					"settings":
+					{
+						"buffer_size": 2585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2343,
+								2343
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"is_remote": true,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"tmp_dir": "c:\\users\\rajat\\appdata\\local\\temp\\sublime-sftp-browse-1359279937\\agni\\",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 684.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "/C/users/rajat/appdata/local/temp/sublime-sftp-browse-1359225738/agni/home/harsh/btp-server/website/wperf/forms.py",
 					"settings":
 					{
@@ -1911,7 +2028,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "/C/users/rajat/appdata/local/temp/sublime-sftp-browse-1359225742/agni/home/harsh/btp-server/website/wperf/urls.py",
 					"settings":
 					{
@@ -2032,19 +2149,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "/C/users/rajat/appdata/local/temp/sublime-sftp-browse-1359225747/agni/home/harsh/btp-server/website/wperf/templates/hosts_list_template.html",
 					"settings":
 					{
-						"buffer_size": 1196,
+						"buffer_size": 1200,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								225,
-								225
+								922,
+								922
 							]
 						],
 						"settings":
@@ -2144,124 +2261,6 @@
 							"synced": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tmp_dir": "c:\\users\\rajat\\appdata\\local\\temp\\sublime-sftp-browse-1359225747\\agni\\"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 639,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								615,
-								615
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"incomplete_sync": null,
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"remote_loading": false,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
