@@ -9,6 +9,8 @@
 		"Clipboard Manager",
 		"Codechef",
 		"CSV",
+		"Emmet",
+		"Emmet Css Snippets",
 		"FileDiffs",
 		"Gist",
 		"Git",
@@ -32,7 +34,6 @@
 		"SublimeLinter",
 		"SublimeREPL",
 		"SublimeTODO",
-		"VintageEx",
-		"ZenCoding"
+		"VintageEx"
 	]
 }

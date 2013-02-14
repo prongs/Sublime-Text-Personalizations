@@ -1,11 +1,11 @@
 {
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 12,
+	"font_size": 11,
 	"ignored_packages":
 	[
+		"ShaderLanguages",
 		"GL Shader Validator",
-		"LiveReload",
-		"ShaderLanguages"
+		"LiveReload"
 	],
 	"trim_trailing_white_space_on_save": true
 }
