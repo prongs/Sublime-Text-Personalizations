@@ -9,6 +9,7 @@
 		"Clipboard Manager",
 		"Codechef",
 		"CSV",
+		"DocBlockr",
 		"Emmet",
 		"Emmet Css Snippets",
 		"FileDiffs",
@@ -21,9 +22,12 @@
 		"LiveReload",
 		"Markdown Preview",
 		"MSBuild",
+		"Nettuts+ Fetch",
 		"Nodejs",
 		"Number Manipulation",
 		"Package Control",
+		"PlainTasks",
+		"Prefixr",
 		"Python Auto-Complete",
 		"Require Node.js Modules Helper",
 		"SFTP",
@@ -34,6 +38,7 @@
 		"SublimeLinter",
 		"SublimeREPL",
 		"SublimeTODO",
+		"Theme - Soda",
 		"VintageEx"
 	]
 }

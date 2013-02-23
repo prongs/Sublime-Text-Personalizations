@@ -7,5 +7,7 @@
 		"GL Shader Validator",
 		"LiveReload"
 	],
+	"soda_classic_tabs": true,
+	"theme": "Soda Light.sublime-theme",
 	"trim_trailing_white_space_on_save": true
 }
